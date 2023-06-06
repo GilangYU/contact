@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="big-circle"></div>
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Silahkan tinggalkan pesan Anda pada kolom yang tersedia
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fa-solid fa-map-location-dot icon"></i>
+              <p>
+                Jl. Simprug Golf 8 No. 6, RT.2/RW.8, Grogol Sel., Kec. Kby.
+                Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12220
+              </p>
+            </div>
+            <div class="information">
+              <i class="fa-solid fa-envelope icon"></i>
+              <p>info@skilvul.com</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with Us</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/skilvul/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/skilvul"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/skilvul/mycompany/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <div class="circle one"></div>
+          <div class="circle two"></div>
+
+          <form id="my-form">
+            <h3 class="title">Kontak Kami</h3>
+            <div class="input-container">
+              <input type="text" class="input" placeholder="Nama" required />
+              <label for="">Nama</label>
+              <span>Nama</span>
+            </div>
+            <div class="input-container">
+              <input type="email" class="input" placeholder="Email" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="telp" class="input" placeholder="telp" required />
+              <!-- <label for="">Telp</label> -->
+              <span>Telp</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <!-- <label for="">Pesan</label> -->
+              <span>Pesan</span>
+            </div>
+            <input type="submit" value="Kirim" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
